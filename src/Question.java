@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+
 
 public class Question {
     private ArrayList<String> answer;
@@ -23,12 +25,13 @@ public class Question {
     }
 
 
-    public String displayChoices(){
-        ArrayList<String> choices = new ArrayList<>();
-        for (String answers : answer) {
-            choices.add(answers);
+    public HashMap<String, String> displayChoices() {
+        HashMap<String, String> choicesHashMap = new HashMap<>();
+        String alphabet = "ABCD";
+        for (String choice : this.answer) {
+            choicesHashMap.put((alphabet.split(""))[this.answer.indexOf(choice)], choice);
         }
-        return choices.get(0);
+        return choicesHashMap;
     }
 
 }

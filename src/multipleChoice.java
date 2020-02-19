@@ -1,6 +1,7 @@
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
-import java.util.Objects;
+import java.util.HashMap;
+
 
 public class multipleChoice extends Question {
     private ArrayList<String> wrongAnswers;
@@ -21,15 +22,23 @@ public class multipleChoice extends Question {
     }
 
     @Override
-    public String displayChoices(){
+    public HashMap<String, String> displayChoices() {
         ArrayList<String> choices = new ArrayList<>();
+        HashMap<String, String> choicesHashMap = new HashMap<String, String>();
+        String toDisplay ="";
+        String alphabet = "ABCD";
+
         for (String answers : super.getAnswer()) {
             choices.add(answers);
         }
-        for (String wrongAnswers : this.wrongAnswers){
+        for (String wrongAnswers : this.wrongAnswers) {
             choices.add(wrongAnswers);
         }
-        return "A: " + choices.get(0) + "\t B: " + choices.get(1)+
-                "\nC: " + choices.get(2) + "\t D: " + choices.get(3);
+
+        for (String choice : choices) {
+            choicesHashMap.put((alphabet.split(""))[choices.indexOf(choice)] , choice);
+        }
+
+        return choicesHashMap;
     }
 }

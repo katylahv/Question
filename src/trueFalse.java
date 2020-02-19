@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class trueFalse extends Question{
     private String wrongAnswer;
@@ -19,10 +20,17 @@ public class trueFalse extends Question{
     }
 
     @Override
-    public String displayChoices(){
+    public HashMap<String, String> displayChoices() {
         ArrayList<String> choices = new ArrayList<>();
+        HashMap<String, String> choicesHashMap = new HashMap<>();
+        String alphabet = "AB";
             choices.add(super.getAnswer().get(0));
             choices.add(this.wrongAnswer);
-        return "A: " + choices.get(0) + "\t B: " + choices.get(1);
+
+        for (String choice : choices) {
+            choicesHashMap.put((alphabet.split(""))[choices.indexOf(choice)], choice);
+        }
+
+        return choicesHashMap;
     }
 }

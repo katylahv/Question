@@ -34,7 +34,7 @@ public class QuizRunner {
         kanyeWest.addQuestions(cb);
         kanyeWest.addQuestions(tf);
         kanyeWest.runQuiz();
-        kanyeWest.gradeQuiz();
+        System.out.println(kanyeWest.gradeQuiz());
     }
 }
 
