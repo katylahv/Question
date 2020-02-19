@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f49df9d9-9bb3-4e36-a69a-9549fecdc386" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Question" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XjOeMTvWtCGH4ePOdF2lAhtK6g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="QuizRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuizRunner" />
+      <module name="Question" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuizRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f49df9d9-9bb3-4e36-a69a-9549fecdc386" name="Default Changelist" comment="" />
+      <created>1581556131266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581556131266</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="127" key="#Project_Structure" timestamp="1581556252099">
+      <screen x="55" y="23" width="1385" height="877" />
+    </state>
+    <state x="346" y="127" key="#Project_Structure/55.23.1385.877@55.23.1385.877" timestamp="1581556252099" />
+    <state x="465" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581556240584">
+      <screen x="55" y="23" width="1385" height="877" />
+    </state>
+    <state x="465" y="271" key="#com.intellij.fileTypes.FileTypeChooser/55.23.1385.877@55.23.1385.877" timestamp="1581556240584" />
+    <state x="2288" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1582071235300">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2288" y="159" key="#com.intellij.ide.util.MemberChooser/49.23.1391.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582071235300" />
+    <state x="2288" y="159" key="#com.intellij.ide.util.MemberChooser/53.23.1387.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582064447893" />
+    <state x="666" y="136" key="#com.intellij.ide.util.MemberChooser/53.23.1387.877@53.23.1387.877" timestamp="1581558804107" />
+    <state x="667" y="136" key="#com.intellij.ide.util.MemberChooser/55.23.1385.877@55.23.1385.877" timestamp="1581573695182" />
+    <state x="1836" y="232" width="1265" height="748" key="DiffContextDialog" timestamp="1582087751075">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1836" y="232" width="1265" height="748" key="DiffContextDialog/49.23.1391.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582087751075" />
+    <state x="2226" y="425" key="Github.ShareDialog" timestamp="1582091991685">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2226" y="425" key="Github.ShareDialog/49.23.1391.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582091991685" />
+    <state width="1423" height="235" key="GridCell.Tab.0.bottom" timestamp="1582091803531">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1423" height="235" key="GridCell.Tab.0.bottom/49.23.1391.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582091803531" />
+    <state width="1423" height="235" key="GridCell.Tab.0.center" timestamp="1582091803530">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1423" height="235" key="GridCell.Tab.0.center/49.23.1391.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582091803530" />
+    <state width="1423" height="235" key="GridCell.Tab.0.left" timestamp="1582091803530">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1423" height="235" key="GridCell.Tab.0.left/49.23.1391.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582091803530" />
+    <state width="1423" height="235" key="GridCell.Tab.0.right" timestamp="1582091803530">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1423" height="235" key="GridCell.Tab.0.right/49.23.1391.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582091803530" />
+  </component>
+</project>
